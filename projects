@@ -1,0 +1,31 @@
+project 1 : electronic weighing machine
+The purpose of this project is to make a weighing machine to measure the weight of electronic components , thus callibrated in grams
+the callibration can be reset after each measurement 
+components used :
+Hardware components
+Arduino UNO	
+Arduino UNO
+3Kg Load Cell
+Standard LCD - 16x2 White on Blue	
+Adafruit Standard LCD - 16x2 White on Blue
+I2C LCD Module
+Software apps and online services
+Arduino IDE	
+comments : coding is part is critical
+
+project 2:Metal detector circuit
+to make a simple metal detector using simple components and a LC loop
+a copper loop with 140 turns is used . if the loop is near to a metal , current is induced in the loop , which results in an output from the proximity sensor and the buzzer is turned on.
+Components Required
+1 x TDA0161 Proximity Detector IC
+2 x 47nF Capacitors (Ceramic Capacitor code 473)
+1 x 1 KΩ Resistor (1/4 Watt)
+1 x 330 Ω Resistor (1/4 Watt)
+1 x 100 Ω Resistor (1/4 Watt)
+1 x 5 KΩ Potentiometer
+1 x 2N2222A (NPN Transistor)
+1 x 5V Buzzer
+Coil (copper wire of 26 – 30 AWG is taken and it is wound in to a coil of diamater 5 – 6 cm and 140 – 150 turns)
+Additional Components (for LED)
+1 x 220 Ω Resistor (1/4 Watt)
+1 x 5mm LED
