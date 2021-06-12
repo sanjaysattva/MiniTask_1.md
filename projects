@@ -1,4 +1,5 @@
 project 1 : electronic weighing machine
+
 The purpose of this project is to make a weighing machine to measure the weight of electronic components , thus callibrated in grams
 the callibration can be reset after each measurement 
 components used :
@@ -14,6 +15,7 @@ Arduino IDE
 comments : coding is part is critical
 
 project 2:Metal detector circuit
+
 to make a simple metal detector using simple components and a LC loop
 a copper loop with 140 turns is used . if the loop is near to a metal , current is induced in the loop , which results in an output from the proximity sensor 
 and the buzzer is turned on.
@@ -48,7 +50,9 @@ Photo Darlington Transistor
 LED
 Piezzo buzzer
 
+
 profect 4: Smart Irrigation | Capacitive soil moisture sensor 
+
 componentss
 Wemos D1 mini Shields
 Wemos SD shield
@@ -81,7 +85,9 @@ wemos is able to control the pump in order to turn it on and off at the most sui
 humidity of the soil in which the sensor is positioned.The system can be controlled via a telegram bot that allows us to know the humidity of the
 soil when we request it,whether the pump is running or not.
 
+
 project 5: Rain alarm project
+
 Rain water detector will detect the rain and make an alert; rain water detector is used in the irrigation field, home automation, communication, automobiles etc
 
 If there is no rain, the resistance between the contacts will be very high as there will be no conduction between the wires in the sensor.
@@ -102,7 +108,32 @@ Small Rain Sensor
  100pF Ceramic Capacitor (Code – 101)
  Buzzer 
  
- project 6
+ 
+ project 6:Internet Controlled RC Car with HD Video Using Raspberry Pi
+ components
+Raspberry Pi 4 Model B	
+Flash Memory Card, MicroSD Card
+16 GB+
+Camera Module	
+Raspberry Pi Camera Module
+Or a USB webcam, or GoPro + HDMI capture card
+Male/Female Jumper Wires	
+Jumper wires (generic)	
+2x6 Pin Header (5-pack)	
+Digilent 2x6 Pin Header (5-pack)
+Two 3-pin male-to-male headers
+
+Software apps and online services
+surrogate.tv
+
+The range of the remote control car can be increased using the internet . We can also let anyone from any part of this world operate the car via the internet.
+For this we dont need coding , but we have to use surrogate .tv
+The ESC (electronic speed control)in the rc car is connected to the rasperry pi. We also use rasperry pi camera module and go pro to know the surroundings while operating the car.
+
+
+PROJECT 7: 
+
+
 
 
 
