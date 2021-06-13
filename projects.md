@@ -1,20 +1,30 @@
-project 1 : electronic weighing machine
+# project 1 : electronic weighing machine
 
 The purpose of this project is to make a weighing machine to measure the weight of electronic components , thus callibrated in grams
 the callibration can be reset after each measurement 
+
 components used :
 Hardware components
+
 Arduino UNO	
+
 Arduino UNO
+
 3Kg Load Cell
+
 Standard LCD - 16x2 White on Blue	
+
 Adafruit Standard LCD - 16x2 White on Blue
+
 I2C LCD Module
+
 Software apps and online services
+
 Arduino IDE	
+
 comments : coding is part is critical
 
-project 2:Metal detector circuit
+# project 2:Metal detector circuit
 
 to make a simple metal detector using simple components and a LC loop
 a copper loop with 140 turns is used . if the loop is near to a metal , current is induced in the loop , which results in an output from the proximity sensor 
@@ -33,7 +43,7 @@ Additional Components (for LED)
 1 x 220 Ω Resistor (1/4 Watt)
 1 x 5mm LED
 
-project 3 : Car parking gaurd circuit using infrared sensor
+# project 3 : Car parking gaurd circuit using infrared sensor
 
 The IR sensor will detect the obstacle with in 100cm, if there is any obstacle it will sense and give information
 to the tone detector which will enable the LM555 timer to generate a PWM for the buzzer. The LM555 will generate the 
@@ -51,7 +61,7 @@ LED
 Piezzo buzzer
 
 
-profect 4: Smart Irrigation | Capacitive soil moisture sensor 
+#profect 4: Smart Irrigation | Capacitive soil moisture sensor 
 
 componentss
 Wemos D1 mini Shields
@@ -86,7 +96,7 @@ humidity of the soil in which the sensor is positioned.The system can be control
 soil when we request it,whether the pump is running or not.
 
 
-project 5: Rain alarm project
+# project 5: Rain alarm project
 
 Rain water detector will detect the rain and make an alert; rain water detector is used in the irrigation field, home automation, communication, automobiles etc
 
@@ -109,7 +119,7 @@ Small Rain Sensor
  Buzzer 
  
  
- project 6:Internet Controlled RC Car with HD Video Using Raspberry Pi
+ #project 6:Internet Controlled RC Car with HD Video Using Raspberry Pi
  components
 Raspberry Pi 4 Model B	
 Flash Memory Card, MicroSD Card
@@ -131,7 +141,7 @@ For this we dont need coding , but we have to use surrogate .tv
 The ESC (electronic speed control)in the rc car is connected to the rasperry pi. We also use rasperry pi camera module and go pro to know the surroundings while operating the car.
 
 
-PROJECT 7: DIY Arduino Turn Signal Bicycle Safety Vest
+# PROJECT 7: DIY Arduino Turn Signal Bicycle Safety Vest
 
 Cars and motorbikes have an indicator . Why not we have one for bicycles. The light vest consists LED strips , which act as indicators. 
 the led strips can be controlled by a remote or through a gyroscopic detector.
@@ -157,18 +167,27 @@ The LED vest works by using an Arduino to control a set of LED strips (WS2812B) 
 When you turn the handlebar right the Gyroscope detects the relative change in orientation to the Right. The value ‘R’ (representing Right)
 is sent to the LED Vest microcontroller via Bluetooth.The LED strip would light up the right arrows of the LED strip.
 
-PROJECT 8:IOT based Thermal Alarm
+# PROJECT 8:IOT based Thermal Alarm
 An IoT based thermal alarm system that goes off and sends SMS when it detects a thermal anomaly.
 
 Hardware components:
+
 Bolt WiFi Module	
+
 Buzzer, Piezo	
+
 5 mm LED: Red
+
 LED, Blue	
+
 Temperature Sensor
+
 (LM35)
+
 Software apps and online services
+
 SMS Messaging API	
+
 Twilio SMS Messaging API
 
 the thermal sensor range is -55 celcius to 155 celcius.
