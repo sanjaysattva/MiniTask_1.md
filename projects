@@ -131,8 +131,48 @@ For this we dont need coding , but we have to use surrogate .tv
 The ESC (electronic speed control)in the rc car is connected to the rasperry pi. We also use rasperry pi camera module and go pro to know the surroundings while operating the car.
 
 
-PROJECT 7: 
+PROJECT 7: DIY Arduino Turn Signal Bicycle Safety Vest
 
+Cars and motorbikes have an indicator . Why not we have one for bicycles. The light vest consists LED strips , which act as indicators. 
+the led strips can be controlled by a remote or through a gyroscopic detector.
+ 
+ Components:
+Arduino Nano R3	
+JLCPCB Customized PCB	
+NeoPixel Ring: WS2812 5050 RGB LED	
+Adafruit NeoPixel Ring: WS2812 5050 RGB LED
+HC-05 Bluetooth Module	
+Inertial Measurement Unit (IMU) (6 deg of freedom)	
+Rechargeable Battery, 4.8 V	
+Jumper wires (generic)	
+Breadboard (generic)	
+Pushbutton switch 12mm	
+SparkFun Pushbutton switch 12mm
+Software apps and online services
+Arduino IDE	
+
+LightVest is a light strip controlled by a microcontroller safely applied to a wearable fabric, such as a vest. the Bike Remote and the LED Bike Vest have two
+Arduino (Microcontrollers) which communicate with each other through Bluetooth.
+The LED vest works by using an Arduino to control a set of LED strips (WS2812B) based on the User’s action. 
+When you turn the handlebar right the Gyroscope detects the relative change in orientation to the Right. The value ‘R’ (representing Right)
+is sent to the LED Vest microcontroller via Bluetooth.The LED strip would light up the right arrows of the LED strip.
+
+PROJECT 8:IOT based Thermal Alarm
+An IoT based thermal alarm system that goes off and sends SMS when it detects a thermal anomaly.
+
+Hardware components:
+Bolt WiFi Module	
+Buzzer, Piezo	
+5 mm LED: Red
+LED, Blue	
+Temperature Sensor
+(LM35)
+Software apps and online services
+SMS Messaging API	
+Twilio SMS Messaging API
+
+the thermal sensor range is -55 celcius to 155 celcius.
+This project requires coding knowledge in python.
 
 
 
