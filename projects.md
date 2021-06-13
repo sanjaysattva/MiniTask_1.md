@@ -193,6 +193,59 @@ Twilio SMS Messaging API
 the thermal sensor range is -55 celcius to 155 celcius.
 This project requires coding knowledge in python.
 
+# project 9:Roboticized Light Switch for Home Automation
+
+ A roboticized cover which makes light switch a lot smarter.
+ 
+  components:
+  
+ESP8266 ESP-12E	
+
+Espressif ESP8266 ESP-12E
+
+Push servo 20kg 180 degrees
+
+Continuous rotation servo
+	
+10k ohm 0806 resistors
+	
+100nF 0806 capacitors
+	
+10uF SMD ECAP
+	
+100uF SMD ECAP
+	
+5.1mm female barrel jack
+	
+Push button 6.0x3.5mm
+	
+Rotary encoder
+	
+Rotary encoder knob
+Needs to be cut down to 5mm height
+	
+5-6V 600mA power supply
+	
+Custom PCB. See step 3 for details
+
+
+There will be three main components in this build:
+
+Mechanical design
+
+Control electronics for communicating with Home Assistant or any other MQTT server
+
+Programming, to make the logic that automates and ties everything together
+
+After building and configuring the project the lights can be controlled through four main ways:
+
+Through a phone, tablet, computer or whatever you have that can access Home Assistant. I set it up as a local server so it will continue to work even if the internet is disconnected, which is important
+
+Through voice with Google Assistant, which relays the commands to Home Assistant. This will only work when you have a valid internet connection
+
+Through a rotary encoder with a built in push button. This would continue to work even if both internet was down and my local automation server stopped responding for some reason
+
+The final way to control the lights is by manual override. As I can easily enough push or turn the light switch even with the upgrades installed
 
 
 
