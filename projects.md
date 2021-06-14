@@ -223,7 +223,7 @@ The ESC (electronic speed control)in the rc car is connected to the rasperry pi.
 Cars and motorbikes have an indicator . Why not we have one for bicycles. The light vest consists LED strips , which act as indicators. 
 the led strips can be controlled by a remote or through a gyroscopic detector.
  
- Components:
+**Components:**
 
 Arduino Nano R3	
 
@@ -287,7 +287,7 @@ This project requires coding knowledge in python.
 
  A roboticized cover which makes light switch a lot smarter.
  ![p](https://github.com/sanjaysattva/MiniTask_1.md/blob/7c41987219b39bbc25a1c4385ab8783031e09037/FW67SI8KPFHBGVC.jpg)
-  components:
+  **components:**
   
 ESP8266 ESP-12E	
 
@@ -338,6 +338,24 @@ After building and configuring the project the lights can be controlled through 
 4.The final way to control the lights is by manual override. As I can easily enough push or turn the light switch even with the upgrades installed
 
 
+# Project 10 : Automatic window roller blinds
+Automatic window roller blinds that can be controlled wirelessly by a small remote, web interface or RESTful API.
+
+**components**
+	
+SparkFun Arduino Pro Mini 328 - 3.3V/8MHz
+	
+Software apps and online services:
+
+PlatformIO IDE
+
+The project consist of 3 parts:
+
+1.Motor: the part that receives commands and moves the blinds
+
+2.Remote: a small remote to control the motorWeb
+
+3.interface: an ESP32 running a web interface that can be used to control the motor from any browser in the network
 
 
 
