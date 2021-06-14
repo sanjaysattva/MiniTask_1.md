@@ -286,7 +286,7 @@ This project requires coding knowledge in python.
 # project 9:Roboticized Light Switch for Home Automation
 
  A roboticized cover which makes light switch a lot smarter.
- ![p]
+ ![p](https://github.com/sanjaysattva/MiniTask_1.md/blob/7c41987219b39bbc25a1c4385ab8783031e09037/FW67SI8KPFHBGVC.jpg)
   components:
   
 ESP8266 ESP-12E	
