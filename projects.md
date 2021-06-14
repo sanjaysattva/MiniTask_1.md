@@ -340,6 +340,7 @@ After building and configuring the project the lights can be controlled through 
 
 # Project 10 : Automatic window roller blinds
 Automatic window roller blinds that can be controlled wirelessly by a small remote, web interface or RESTful API.
+![p](https://github.com/sanjaysattva/MiniTask_1.md/blob/4cba02465148403a48498d3530014977b03db8b1/_RcAMdYYy18.jpg)
 
 **components**
 	
