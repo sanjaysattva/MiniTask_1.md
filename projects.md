@@ -70,6 +70,8 @@ the complete circuitry will be attached to the back bumper and placed at the cen
 
 placed on the dash board for visibility of light and hearing purpose for the driver.
 
+![p](https://github.com/sanjaysattva/MiniTask_1.md/blob/4459f149e6b6b07c375045ed8c88cbebe1241f69/Block-Diagram-of-Car-Parking-Guard-Circuit-Using-Infrared-Sensor.png)
+
 components: 
 
 IR sensor 
@@ -284,7 +286,7 @@ This project requires coding knowledge in python.
 # project 9:Roboticized Light Switch for Home Automation
 
  A roboticized cover which makes light switch a lot smarter.
- 
+ ![p]
   components:
   
 ESP8266 ESP-12E	
