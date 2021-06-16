@@ -30,6 +30,8 @@ to make a simple metal detector using simple components and a LC loop
 
 a copper loop with 140 turns is used . if the loop is near to a metal , current is induced in the loop , which results in an output from the proximity sensor 
 and the buzzer is turned on.
+![Metal-Detector-Circuit-Image-1-760x440](https://user-images.githubusercontent.com/85502194/122223544-e545ac00-ced0-11eb-955e-07764184d05e.jpg)
+
 
 Components Required
 
@@ -348,6 +350,9 @@ The project consist of 3 parts:
 2.Remote: a small remote to control the motorWeb
 
 3.interface: an ESP32 running a web interface that can be used to control the motor from any browser in the network
+
+
+
 
 
 
