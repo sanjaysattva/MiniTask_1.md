@@ -61,13 +61,9 @@ Additional Components (for LED)
 # project 3 : Car parking gaurd circuit using infrared sensor
 
 The IR sensor will detect the obstacle with in 100cm, if there is any obstacle it will sense and give information
-
 to the tone detector which will enable the LM555 timer to generate a PWM for the buzzer. The LM555 will generate the 
-
 pulse which helps to buzz the buzzer so driver can understand that there is an obstacle.
-
 the complete circuitry will be attached to the back bumper and placed at the center. The buzzer and led should be
-
 placed on the dash board for visibility of light and hearing purpose for the driver.
 
 ![p](https://github.com/sanjaysattva/MiniTask_1.md/blob/4459f149e6b6b07c375045ed8c88cbebe1241f69/Block-Diagram-of-Car-Parking-Guard-Circuit-Using-Infrared-Sensor.png)
@@ -87,7 +83,7 @@ LED
 Piezzo buzzer
 
 
-#profect 4: Smart Irrigation | Capacitive soil moisture sensor 
+# project 4: Smart Irrigation | Capacitive soil moisture sensor 
 
 componentss
 
@@ -132,17 +128,12 @@ Makercase
 Arduino IDE	
 
 It is often noticed in many parks that most of the plants are not properly wet.In case of too wet 
-
 water waste is high and consequently the cost of irrigation is high.To solve that we planned to make a device
-
 that controls the irrigating system properly. So that there is no over watering and all plants
-
-get the "required" amount of water.
+get the "required" amount of water. 
 
 wemos is able to control the pump in order to turn it on and off at the most suitable time, referring to the 
-
 humidity of the soil in which the sensor is positioned.The system can be controlled via a telegram bot that allows us to know the humidity of the
-
 soil when we request it,whether the pump is running or not.
 
 
